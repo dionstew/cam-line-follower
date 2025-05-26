@@ -1,6 +1,6 @@
 import cv2
-from line_tracker import LineTracker
-from pid import PIDController
+from modules.line_tracker import LineTracker
+from modules.pid import PIDController
 import time
 
 roi_bounds = (300, 480, 160, 480)  # y1, y2, x1, x2

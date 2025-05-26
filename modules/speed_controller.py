@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-from pid import PIDController
+from modules.pid import PIDController
 
 '''
     ... process deteksi titik 

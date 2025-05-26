@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-from pid import PIDController
+from modules.pid import PIDController
 from collections import deque
 
 class KalmanCentroidPredictor:

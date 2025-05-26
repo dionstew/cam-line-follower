@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 from collections import deque
-from pid import PIDController  # opsional
-from kalman import KalmanCentroidPredictor  # pastikan Anda pisahkan kelas Kalman juga
+from modules.pid import PIDController  # opsional
+from modules.kalman import KalmanCentroidPredictor  # pastikan Anda pisahkan kelas Kalman juga
 
 # --- Fungsi bantu ---
 def filter_contours(contours, area_min, area_max):
