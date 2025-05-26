@@ -1,0 +1,10 @@
+# Abaikan semua file video
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Abaikan folder khusus
+videos/
+temp/
+logs/
