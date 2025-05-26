@@ -20,6 +20,7 @@ Robot line follower ini menggunakan **kamera** sebagai sensor utama untuk mendet
 ---
 
 ## 🚀 Cara Menjalankan
+### Belum Selesai ---- :)
 1. Pastikan semua dependensi sudah diinstal (misalnya `OpenCV`, `PySerial`, dll.)
 2. Jalankan skrip utama:
    ```bash
